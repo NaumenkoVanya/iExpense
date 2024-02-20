@@ -12,6 +12,8 @@
 		CAD602A32B84A70400245390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD602A22B84A70400245390 /* Assets.xcassets */; };
 		CAD602A62B84A70400245390 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD602A52B84A70400245390 /* Preview Assets.xcassets */; };
 		CAD602AD2B84B31A00245390 /* OnDelete().swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD602AC2B84B31A00245390 /* OnDelete().swift */; };
+		CAD602AF2B84B73E00245390 /* UserDefaultsOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD602AE2B84B73E00245390 /* UserDefaultsOne.swift */; };
+		CAD602B12B84BEA200245390 /* CodableOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD602B02B84BEA200245390 /* CodableOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CAD602A22B84A70400245390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD602A52B84A70400245390 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CAD602AC2B84B31A00245390 /* OnDelete().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnDelete().swift"; sourceTree = "<group>"; };
+		CAD602AE2B84B73E00245390 /* UserDefaultsOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsOne.swift; sourceTree = "<group>"; };
+		CAD602B02B84BEA200245390 /* CodableOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				CAD602A22B84A70400245390 /* Assets.xcassets */,
 				CAD602A42B84A70400245390 /* Preview Content */,
 				CAD602AC2B84B31A00245390 /* OnDelete().swift */,
+				CAD602AE2B84B73E00245390 /* UserDefaultsOne.swift */,
+				CAD602B02B84BEA200245390 /* CodableOne.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD602AF2B84B73E00245390 /* UserDefaultsOne.swift in Sources */,
 				CAD602AD2B84B31A00245390 /* OnDelete().swift in Sources */,
 				CAD602A12B84A70200245390 /* ContentView.swift in Sources */,
+				CAD602B12B84BEA200245390 /* CodableOne.swift in Sources */,
 				CAD6029F2B84A70200245390 /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

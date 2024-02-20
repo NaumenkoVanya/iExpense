@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Observation
+import UserNotificationsUI
 
 struct SecondView: View {
     @Environment(\.dismiss) var dismiss
@@ -29,7 +30,6 @@ struct ContentView: View {
     @State private var showingSheet = false
     @State private var myName = ""
 //    @State private var user = User()
-    
     var body: some View {
         TextField("Name", text: $myName)
             .padding()
