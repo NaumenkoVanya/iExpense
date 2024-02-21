@@ -13,7 +13,8 @@ struct ExpenseItem: Identifiable, Codable {
     var id = UUID()
     let name: String
     let type: String
-    let amount: Double
+    var amount: Double
+
 }
 
 // MARK: - Expenses
@@ -42,11 +43,11 @@ struct ExpenseItem: Identifiable, Codable {
 struct ThirtySeventhDay: View {
     @State private var expenses = Expenses()
     @State private var showingAddExpense = false
-
+    
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
     }
-
+    
     var body: some View {
         NavigationStack {
             List {
@@ -58,8 +59,9 @@ struct ThirtySeventhDay: View {
                             Text(item.type)
                         }
                         Spacer()
-                        Text(item.amount, format: .currency(code: "USD"))
+                        Text(item.amount, format: .currency(code: "RU")).font(Font.system(.title))
                     }
+                
                 }
                 .onDelete(perform: removeItems)
             }
