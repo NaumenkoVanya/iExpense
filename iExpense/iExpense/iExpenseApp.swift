@@ -12,7 +12,8 @@ struct iExpenseApp: App {
     var body: some Scene {
         WindowGroup {
 //            UserDefaultsOne()
-            ContentView()
+            ThirtySeventhDay()
+//            ContentView()
         }
     }
 }

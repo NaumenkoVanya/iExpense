@@ -14,6 +14,8 @@
 		CAD602AD2B84B31A00245390 /* OnDelete().swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD602AC2B84B31A00245390 /* OnDelete().swift */; };
 		CAD602AF2B84B73E00245390 /* UserDefaultsOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD602AE2B84B73E00245390 /* UserDefaultsOne.swift */; };
 		CAD602B12B84BEA200245390 /* CodableOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD602B02B84BEA200245390 /* CodableOne.swift */; };
+		CAF12ED12B86352900E347B6 /* ThirtySeventhDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12ED02B86352900E347B6 /* ThirtySeventhDay.swift */; };
+		CAF12ED32B865FEA00E347B6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF12ED22B865FEA00E347B6 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CAD602AC2B84B31A00245390 /* OnDelete().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnDelete().swift"; sourceTree = "<group>"; };
 		CAD602AE2B84B73E00245390 /* UserDefaultsOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsOne.swift; sourceTree = "<group>"; };
 		CAD602B02B84BEA200245390 /* CodableOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableOne.swift; sourceTree = "<group>"; };
+		CAF12ED02B86352900E347B6 /* ThirtySeventhDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtySeventhDay.swift; sourceTree = "<group>"; };
+		CAF12ED22B865FEA00E347B6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				CAD602AC2B84B31A00245390 /* OnDelete().swift */,
 				CAD602AE2B84B73E00245390 /* UserDefaultsOne.swift */,
 				CAD602B02B84BEA200245390 /* CodableOne.swift */,
+				CAF12ED02B86352900E347B6 /* ThirtySeventhDay.swift */,
+				CAF12ED22B865FEA00E347B6 /* AddView.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF12ED32B865FEA00E347B6 /* AddView.swift in Sources */,
 				CAD602AF2B84B73E00245390 /* UserDefaultsOne.swift in Sources */,
 				CAD602AD2B84B31A00245390 /* OnDelete().swift in Sources */,
+				CAF12ED12B86352900E347B6 /* ThirtySeventhDay.swift in Sources */,
 				CAD602A12B84A70200245390 /* ContentView.swift in Sources */,
 				CAD602B12B84BEA200245390 /* CodableOne.swift in Sources */,
 				CAD6029F2B84A70200245390 /* iExpenseApp.swift in Sources */,
