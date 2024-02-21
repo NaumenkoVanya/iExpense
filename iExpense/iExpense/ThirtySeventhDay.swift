@@ -14,8 +14,8 @@ struct ExpenseItem: Identifiable, Codable {
     let name: String
     let type: String
     var amount: Double
-
 }
+
 
 // MARK: - Expenses
 
@@ -44,12 +44,25 @@ struct ThirtySeventhDay: View {
     @State private var expenses = Expenses()
     @State private var showingAddExpense = false
     
+    @State private var textFind = ""
+    
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
     }
     
     var body: some View {
+        VStack {
+            Section {
+                TextField("Find expense", text: $textFind )
+                    .textFieldStyle(.roundedBorder)
+                   
+            }
+            .padding()
+            .background(.black)
+        }
+        
         NavigationStack {
+            
             List {
                 ForEach(expenses.items) { item in
                     HStack {
@@ -60,10 +73,13 @@ struct ThirtySeventhDay: View {
                         }
                         Spacer()
                         Text(item.amount, format: .currency(code: "RU")).font(Font.system(.title))
+                            .foregroundColor(item.amount <= 10 ? .green : (item.amount < 100 ? .blue : .red))
                     }
+                    
                 
                 }
                 .onDelete(perform: removeItems)
+                
             }
             .navigationTitle("iExpense")
             .toolbar {
@@ -77,6 +93,7 @@ struct ThirtySeventhDay: View {
         }
         Image("Снимок экрана 2024-02-21 в 20.47.13")
             .resizable()
+            .ignoresSafeArea()
     }
 }
 
